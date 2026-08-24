@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">blockLauncher</string>
+    <string name="status_owner_yes">Права владельца устройства: Да</string>
+    <string name="status_owner_no">Права владельца устройства: Нет</string>
+    <string name="SetCameraDisabled">Отключить Камеру</string>
+    <string name="SetKeyguardDisabled">Отключить Экран блокировки</string>
+    <string name="SetStatusBarDisabled">Отключить Строку состояния</string>
+    <string name="DisallowAdjustVolume">Отключить менять Уровень громкости</string>
+    <string name="DisallowAppsControl">Отключить Контроль приложений (Отключение, Остановка, Очистка данных)</string>
+    <string name="DisallowConfigDateTime">Запретить менять Дату, Время и Часовой пояс</string>
+    <string name="DisallowConfigLocale">Запретить менять Язык системы</string>
+    <string name="DisallowBluetooth">Отключить Bluetooth</string>
+    <string name="DisallowAirplaneMode">Отключить Режим полёта</string>
+    <string name="DisallowConfigLocation">Отключить менять настройки Навигации (GPS и т.п.)</string>
+    <string name="DisallowShareLocation">Отключить определять Местоположение</string>
+    <string name="DisallowConfigMobileNetworks">Запретить менять настройки Мобильной сети</string>
+    <string name="DisallowConfigWifi">Запретить менять настройки Wi-Fi</string>
+    <string name="DisallowOutgoingBeam">Отключить NFC</string>
+    <string name="DisallowConfigTethering">Запретить менять настройки Точки доступа</string>
+    <string name="DisallowConfigCredentials">Запретить менять настройки Установки сертификатов</string>
+    <string name="DisallowConfigVpn">Отключить настройки VPN</string>
+    <string name="DisallowConfigPrivateDns">Отключить настройки Частный DNS-сервер</string>
+    <string name="DisallowOutgoingCalls">Запретить исходящие звонки</string>
+    <string name="DisallowSMS">Запретить SMS</string>
+    <string name="DisallowDataRoaming">Запретить обмен данными в роуминге</string>
+    <string name="DisallowConfigScreenTimeout">Запретить менять Время отключения экрана</string>
+    <string name="DisallowSetWallpaper">Запретить смену Обоев</string>
+    <string name="DisallowNetworkReset">Запретить Сброс настроек сетей</string>
+    <string name="DisallowFactoryReset">Отключить Сброс до заводских настроек</string>
+    <string name="DisallowSafeBoot">Запретить загрузку в безопасном режиме</string>
+    <string name="DisallowDebuggingFeatures">Отключить отладку по USB</string>
+    <string name="DisallowUsbFileTransfer">Запретить передачу файлов по USB</string>
+    <string name="DisallowMountPhysicalMedia">Запретить подключать USB-накопители</string>
+    <string name="DisallowUninstallApps">Запретить удаление приложений</string>
+    <string name="DisallowInstallApps">Запретить установку приложений</string>
+    <string name="DisallowInstallUnknownSources">Запретить установку приложений из неизвестных источников для текущего пользователя</string>
+    <string name="DisallowInstallUnknownSourcesGlobally">Запретить установку приложений из неизвестных источников для всех пользователей</string>
+    <string name="DisallowSetUserIcon">Запретить менять иконку пользователя</string>
+    <string name="DisallowAddUser">Запретить добавление пользователей</string>
+    <string name="DisallowModifyAccounts">Запретить редактировать пользователей</string>
+    <string name="DisallowRemoveUser">Запретить удалять пользователей</string>
+    <string name="DisallowContentCapture">Запретить ИИ считывать контент</string>
+    <string name="DisallowContentSuggestions">Запретить подсказки</string>
+    <string name="EditHint">Пароль</string>
+    <string name="Button">Сохранить</string>
+    <string name="save_settings_yes">Сохранено</string>
+    <string name="save_settings_no">Ошибка доступа</string>
+
+    <string name="setRecommended">Рекомендованные</string>
+    <string name="SetClear">Очистить</string>
+
+    <string name="launcherOrgName">Моя организация</string>
+    <string name="accessTitle">Доступ администратора</string>
+    <string name="accessMessage">Введите пароль</string>
+    <string name="accessButton">Войти</string>
+    <string name="accessDeied">Доступ запрещен</string>
+    <string name="accessCancel">Отмена</string>
+
+    <string name="sNone"> </string>
+</resources>

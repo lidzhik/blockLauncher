@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgray"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/statusOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:text="@string/status_owner_no"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="100"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/setRecommended"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:text="@string/setRecommended"
+                    tools:ignore="ButtonStyle,NestedWeights" />
+
+                <Button
+                    android:id="@+id/setClear"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:text="@string/SetClear"
+                    tools:ignore="ButtonStyle,NestedWeights" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/checkboxSetCameraDisabled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/SetCameraDisabled" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowBluetooth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowBluetooth" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowAirplaneMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowAirplaneMode" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigWifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigWifi" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigLocation" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowShareLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowShareLocation" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigMobileNetworks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigMobileNetworks" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigTethering"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigTethering" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowOutgoingBeam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowOutgoingBeam" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="10dp"
+                android:background="@color/black" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigLocale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigLocale" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigDateTime" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigCredentials"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigCredentials" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigPrivateDns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigPrivateDns" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigVpn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigVpn" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="10dp"
+                android:background="@color/black" />
+
+            <CheckBox
+                android:id="@+id/checkboxSetKeyguardDisabled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/SetKeyguardDisabled" />
+
+            <CheckBox
+                android:id="@+id/checkboxSetStatusBarDisabled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/SetStatusBarDisabled" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowAdjustVolume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowAdjustVolume" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowSetWallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowSetWallpaper" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowConfigScreenTimeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowConfigScreenTimeout" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="10dp"
+                android:background="@color/black" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowSafeBoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowSafeBoot" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowNetworkReset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowNetworkReset" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowFactoryReset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowFactoryReset" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowDebuggingFeatures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowDebuggingFeatures" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowUsbFileTransfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowUsbFileTransfer" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowMountPhysicalMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowMountPhysicalMedia" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="10dp"
+                android:background="@color/black" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowInstallApps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowInstallApps" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowAppsControl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowAppsControl" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowInstallUnknownSources"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowInstallUnknownSources" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowInstallUnknownSourcesGlobally"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowInstallUnknownSourcesGlobally" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowUninstallApps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowUninstallApps" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="10dp"
+                android:background="@color/black" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowAddUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowAddUser" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowSetUserIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowSetUserIcon" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowModifyAccounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowModifyAccounts" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowRemoveUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowRemoveUser" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="10dp"
+                android:background="@color/black" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowOutgoingCalls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowOutgoingCalls" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowSms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowSMS" />
+            <CheckBox
+                android:id="@+id/checkboxDisallowDataRoaming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowDataRoaming" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="10dp"
+                android:background="@color/black" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowContentCapture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowContentCapture" />
+
+            <CheckBox
+                android:id="@+id/checkboxDisallowContentSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/DisallowContentSuggestions" />
+
+            <Button
+                android:id="@+id/saveSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/Button" />
+
+            <EditText
+                android:id="@+id/accessPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:textColor="@color/darkgray"
+                android:background="@drawable/edit_style"
+                android:hint="@string/EditHint"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:inputType="textPassword" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">blockLauncher</string>
+
+    <string name="status_owner_yes">Device Owner: YES</string>
+    <string name="status_owner_no">Device Owner: No</string>
+    <string name="SetCameraDisabled">Set Camera Disabled</string>
+    <string name="SetKeyguardDisabled">Set Keyguard Disabled</string>
+    <string name="SetStatusBarDisabled">Set StatusBar Disabled</string>
+    <string name="DisallowAdjustVolume">Disallow Adjust Volume</string>
+    <string name="DisallowBluetooth">Disallow Bluetooth</string>
+    <string name="DisallowAddUser">Disallow Add User</string>
+    <string name="DisallowAirplaneMode">Disallow Airplane Mode</string>
+    <string name="DisallowAppsControl">Disallow Apps Control</string>
+    <string name="DisallowConfigCredentials">Disallow Config Credentials</string>
+    <string name="DisallowConfigDateTime">Disallow Config DateTime</string>
+    <string name="DisallowConfigLocale">Disallow Config Locale</string>
+    <string name="DisallowConfigLocation">Disallow Config Location</string>
+    <string name="DisallowConfigMobileNetworks">Disallow Config Mobile Networks</string>
+    <string name="DisallowConfigPrivateDns">Disallow Config Private Dns</string>
+    <string name="DisallowConfigScreenTimeout">Disallow Config Screen Timeout</string>
+    <string name="DisallowConfigTethering">Disallow Config Tethering</string>
+    <string name="DisallowConfigVpn">Disallow Config Vpn</string>
+    <string name="DisallowConfigWifi">Disallow Config Wifi</string>
+    <string name="DisallowContentCapture">Disallow Content Capture</string>
+    <string name="DisallowContentSuggestions">Disallow Content Suggestions</string>
+    <string name="DisallowDataRoaming">Disallow Data Roaming</string>
+    <string name="DisallowDebuggingFeatures">Disallow Debugging Features</string>
+    <string name="DisallowFactoryReset">Disallow Factory Reset</string>
+    <string name="DisallowInstallApps">Disallow Install Apps</string>
+    <string name="DisallowInstallUnknownSources">Disallow Install Unknown Sources</string>
+    <string name="DisallowInstallUnknownSourcesGlobally">Disallow Install Unknown Sources Globally</string>
+    <string name="DisallowModifyAccounts">Disallow Modify Accounts</string>
+    <string name="DisallowMountPhysicalMedia">Disallow Mount Physical Media</string>
+    <string name="DisallowNetworkReset">Disallow Network Reset</string>
+    <string name="DisallowOutgoingBeam">Disallow Outgoing Beam</string>
+    <string name="DisallowOutgoingCalls">Disallow Outgoing Calls</string>
+    <string name="DisallowRemoveUser">Disallow Remove User</string>
+    <string name="DisallowSafeBoot">Disallow Safe Boot</string>
+    <string name="DisallowSetUserIcon">Disallow Set User Icon</string>
+    <string name="DisallowSetWallpaper">Disallow Set Wallpaper</string>
+    <string name="DisallowShareLocation">Disallow Share Location</string>
+    <string name="DisallowSMS">Disallow SMS</string>
+    <string name="DisallowUninstallApps">Disallow Uninstall Apps</string>
+    <string name="DisallowUsbFileTransfer">Disallow Usb File Transfer</string>
+    <string name="EditHint">Password</string>
+    <string name="Button">Save</string>
+
+    <string name="setRecommended">Recomended</string>
+    <string name="SetClear">Clear</string>
+
+    <string name="save_settings_yes">Save: OK</string>
+    <string name="save_settings_no">Save: Error</string>
+
+    <string name="launcherOrgName">My Organization</string>
+    <string name="accessTitle">Admin Access</string>
+    <string name="accessMessage">Enter password</string>
+    <string name="accessButton">Login</string>
+    <string name="accessDeied">Access Denied</string>
+    <string name="accessCancel">Cancel</string>
+
+    <string name="sNone"> </string>
+</resources>
