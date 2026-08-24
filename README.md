@@ -33,20 +33,23 @@
 - Скачать и Разархивировать platform-tools-latest-windows.zip [https://developer.android.com/tools/releases/platform-tools]
 - Перейти в разархивированную папку с помощью Командной строки - adb (или PowerShell - ./adb)
 - Проверить подключение планшета выполнив команду:
+```
 ./adb install D:/app-debug.apk
+```
 - Сделать приложение владельцем планшета
+```
 ./adb shell dpm set-device-owner com.example.blocklauncher/.BlockDeviceAdminReceiver
-
+```
 - Запустить на планшете blockLauncher
 - Войти в Админку по паролю 1111
 - Перезагрузиться
 
-
+```
 ./adb devices (или adb devices)
 ./adb shell am kill com.exampleblocklauncher
 ./adb shell dpm remove-active-admin com.example.blocklauncher/.BlockDeviceAdminReceiver
 ./adb shell pm list packages -e
-
+```
 #Minimum Android Version, Android 11 (SDK Level 30, Android R (Red Velvet Cake))
 
 [https://developer.android.com/reference/android/app/admin/DevicePolicyManager]
