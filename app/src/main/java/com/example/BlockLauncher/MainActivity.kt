@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
         "com.example.blocklauncher",
         "com.blackview.systemmanager",
         "com.blackview.pictorial.client",
-        "com.google.android.apps.nbu.files",
         "com.google.android.gm",
         "com.google.android.apps.tachyon",
         "com.google.android.apps.docs",
@@ -53,6 +52,7 @@ class MainActivity : AppCompatActivity() {
         "com.blackview.useguide",
         "com.google.android.apps.safetyhub",
 
+//        "com.google.android.apps.nbu.files",
 //        "com.yandex.browser",
 //        "com.android.settings",
 //        "com.android.deskclock",
